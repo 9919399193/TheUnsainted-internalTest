@@ -1,0 +1,17 @@
+; 初始场景，以及特效演示
+bgm:balade.mp3;
+intro:本作品含有大量虚拟设定与艺术加工，意在营造虚构世界观，请勿与现实混淆。本游戏为著作权人原创作品，禁止擅自转载、盗用、篡改、出售或用于任何未经授权的商业用途。祝您游戏愉快。
+intro:This game is a work of fiction.All characters depicted in this game are fictional. All rights reserved. Unauthorized reproduction, distribution, or commercial use of this game is prohibited without prior permission.Enjoy the game.;
+;setAnimation:enter-from-left -target=fig-left -next;
+;WebGAL:欢迎使用 WebGAL！这是一款全新的网页端视觉小说引擎。 -v1.wav;
+; 模版修改演示
+;WebGAL:普通对话框 -v1.wav -fontSize=large;
+;miniAvatar:stand.png;
+;带有小头像的对话框 -fontSize=default;
+;setTextbox:hide;
+;changeFigure:stand.png;
+;changeFigure:none -next;
+;choose:选项:选择场景文件|选项2:选择场景文件;
+changeBg:none -next;
+getUserInput:name -title=如何称呼你 -buttonText=确认;
+changeScene:chapter1.txt;
