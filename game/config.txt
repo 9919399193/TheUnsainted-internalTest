@@ -1,0 +1,6 @@
+Game_name:我非圣贤;
+Game_key:d92dde69aaba868;
+Title_img:newcover.png;
+Title_bgm:balade.mp3;
+Textbox_theme:imss;
+Default_Language:zh_CN;

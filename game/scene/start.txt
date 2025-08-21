@@ -1,0 +1,8 @@
+bgm:balade.mp3;
+intro:本作品纯属虚构。;
+intro:可以使用存档和读档功能，以便分多次游玩。;
+intro:可以使用底部菜单“人物关系”功能，查看人物介绍。;
+
+changeBg:none -next;
+getUserInput:name -title=如何称呼你 -buttonText=确认;
+changeScene:chapter1.txt;
